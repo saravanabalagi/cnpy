@@ -5,8 +5,6 @@ if(COMMAND cmake_policy)
     cmake_policy(SET CMP0074 NEW)
 endif(COMMAND cmake_policy)
 
-list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
-
 set(ZLIB_ROOT "../../libs/zlib/dist")
 find_package(ZLIB REQUIRED)
 

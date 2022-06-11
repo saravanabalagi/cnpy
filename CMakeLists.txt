@@ -25,4 +25,5 @@ if(ENABLE_STATIC)
 endif(ENABLE_STATIC)
 
 install(FILES "cnpy.h" DESTINATION include)
+install(FILES cmake/cnpy-config.cmake DESTINATION lib/cmake/cnpy)
 

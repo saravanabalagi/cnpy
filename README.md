@@ -28,5 +28,3 @@ For saving data:
 ## Example
 
 [example](example) shows how to use this lib in your own projects and [example.cpp](example/example.cpp) has code to read and write sample numpy arrays.
-
-Note that you will nned `FindCNPY.cmake` in your `CMAKE_MODULE_PATH` to find CNPY package.
